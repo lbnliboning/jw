@@ -1,6 +1,14 @@
 {
 "version": 2,
 "routes": [
-{"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"}
+{"src": "/gh/(.*)","dest": "https://cdn.jsdelivr.net/gh/$1"}
+{"src": "/npm/(.*)","dest": "https://cdn.jsdelivr.net/npm/$1"}
+{"src": "/avater/(.*)","dest": "https://secure.gravatar.com/$1"}
+{"src": "/cdnjs/(.*)","dest": "https://cdnjs.com/$1"}
+{"src": "/github/(.*)","dest": "https://github.com/$1"}
+{"src": "/google/(.*)","dest": "https://google.com.hk/$1"}
+{"src": "/cf/(.*)","dest": "https://dash.cloudflare.com/$1"}
+{"src": "/","dest": "https://raw.cmds.run/lbnliboning/cdnpages/20908f9a483ff2e8ffe9d68bcb00b4f1f46ad421/index.html"}
+{"src": "/@info","dest": "https://jsdelivr.com/"}
 ]
 }
